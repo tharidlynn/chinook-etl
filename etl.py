@@ -17,6 +17,16 @@ def create_date_table(start='2000-01-01', end='2020-12-31'):
     
     return df
 
+def create_time_table(start='00:00', end='23:59', freq='1min'):
+    
+    df = pd.DataFrame(pd.date_range(start, end, freq=freq ), columns=['datetime'])
+    df['time'] = df.datetime.dt.time
+    df['hour'] = df.datetime.dt.hour
+    df['minute'] = df.datetime.dt.minute
+
+    return df
+
+
 def main():
 
     PG_HOST = os.environ.get('PGHOST')
