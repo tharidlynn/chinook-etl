@@ -18,7 +18,7 @@ However, I decide to populate a table with the [PG modified SQL](https://github.
 The Chinook data model represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.
 
 
-![chinook-model](https://github.com/tharid007/chinook-etl/blob/master/chinook-model.png?raw=true)
+![chinook-model](https://github.com/tharidlynn/chinook-etl/blob/master/chinook-model.png?raw=true)
 
 _Credit: https://github.com/lerocha/chinook-database/wiki/Chinook-Schema_
 
@@ -26,7 +26,7 @@ _Credit: https://github.com/lerocha/chinook-database/wiki/Chinook-Schema_
 ### Target model
 The final model is a star schema optimized for a typical data warehouse. 
 
-![chinook-star-schema](https://github.com/tharid007/chinook-etl/blob/master/chinook-star-schema.png?raw=true)
+![chinook-star-schema](https://github.com/tharidlynn/chinook-etl/blob/master/chinook-star-schema.png?raw=true)
 
 
 ## Getting Started
